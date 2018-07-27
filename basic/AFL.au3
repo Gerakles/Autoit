@@ -1,9 +1,10 @@
-Global $Ar[10]
+Global $Ar[20]
 
 $Ar[0] = 0
 $Ar[1] = 123
 $Ar[9] = "finish"
+$Ar[19] = "Succes"
 
-For $a = 0 To 9
+For $a = 0 To (UBound($Ar) -1)
    ConsoleWrite($Ar[$a] & @CRLF)
 Next
